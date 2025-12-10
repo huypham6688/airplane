@@ -1,0 +1,61 @@
+generator client {
+  provider   = "prisma-client-js"
+  output     = "../node_modules/.prisma/client"
+  engineType = "binary"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model HeroContent {
+  id               Int    @id @default(1)
+  title            String
+  subtitle         String
+  tagline          String
+  ctaPrimaryText   String
+  ctaSecondaryText String
+  backgroundImage  String
+  planeImage       String
+}
+
+model Feature {
+  id          Int    @id @default(autoincrement())
+  iconKey     String
+  title       String
+  description String
+  sortOrder   Int    @default(0)
+}
+
+model Testimonial {
+  id        Int    @id @default(autoincrement())
+  name      String
+  role      String
+  text      String
+  rating    Int
+  avatar    String
+  sortOrder Int    @default(0)
+}
+
+model Faq {
+  id        Int    @id @default(autoincrement())
+  question  String
+  answer    String
+  sortOrder Int    @default(0)
+}
+
+model Flight {
+  id            Int     @id @default(autoincrement())
+  departure     String
+  arrival       String
+  departureTime String
+  arrivalTime   String
+  departureDate String?
+  arrivalDate   String?
+  duration      String
+  airline       String
+  price         Int
+  seats         Int
+  stops         Int
+}
