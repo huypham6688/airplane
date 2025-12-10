@@ -1,0 +1,3 @@
+module.exports=[45024,(a,b,c)=>{"use strict";b.exports=a.r(16705).vendored["react-ssr"].ReactJsxRuntime},94224,(a,b,c)=>{"use strict";b.exports=a.r(16705).vendored["react-ssr"].ReactServerDOMTurbopackClient},39927,(a,b,c)=>{"use strict";b.exports=a.r(16705).vendored["react-ssr"].ReactDOM},32687,a=>{"use strict";let b=(0,a.i(49756).default)("Users",[["path",{d:"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2",key:"1yyitq"}],["circle",{cx:"9",cy:"7",r:"4",key:"nufk8"}],["path",{d:"M22 21v-2a4 4 0 0 0-3-3.87",key:"kshegd"}],["path",{d:"M16 3.13a4 4 0 0 1 0 7.75",key:"1da9ce"}]]);a.s(["Users",()=>b],32687)}];
+
+//# sourceMappingURL=b956e__pnpm_b540b14f._.js.map

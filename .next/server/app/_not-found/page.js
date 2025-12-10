@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/Desktop_landing-os_airline-ticket-landing-page_92f7a811._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__9a052145._.js")
+R.c("server/chunks/ssr/ce0a7_next_dist_esm_build_templates_app-page_67fadaaf.js")
+R.c("server/chunks/ssr/[root-of-the-server]__5adda0dd._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__3e435e71._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__960ccd37._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__f6182812._.js")
+R.c("server/chunks/ssr/ce0a7_next_dist_client_components_95256f99._.js")
+R.c("server/chunks/ssr/ce0a7_next_dist_client_components_builtin_forbidden_424f26bb.js")
+R.c("server/chunks/ssr/c92f0_e-ticket-landing-page__next-internal_server_app__not-found_page_actions_29df9bdf.js")
+R.m(91696)
+module.exports=R.m(91696).exports

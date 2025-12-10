@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/account/page": "/account",
+  "/auth/login/page": "/auth/login",
+  "/auth/signup/page": "/auth/signup",
+  "/booking/page": "/booking",
+  "/contact/page": "/contact",
+  "/flight-details/[id]/page": "/flight-details/[id]",
+  "/flights/page": "/flights",
+  "/page": "/"
+}

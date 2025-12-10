@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/account/page": "app/account/page.js",
+  "/auth/login/page": "app/auth/login/page.js",
+  "/auth/signup/page": "app/auth/signup/page.js",
+  "/booking/page": "app/booking/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/flight-details/[id]/page": "app/flight-details/[id]/page.js",
+  "/flights/page": "app/flights/page.js",
+  "/page": "app/page.js"
+}
